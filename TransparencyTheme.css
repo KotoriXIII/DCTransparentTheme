@@ -1,0 +1,53 @@
+//META{"name":"TransparencyTheme","description":"A theme that makes Discord completely see-through and transparent. Minor tweaks to speed Discord's load time and user-friendliness, with some anime spice :)","author":"Kotori#4236","version":"1.0"}*//{}
+
+/* IMPORT CSS FROM GITHUB, this is the ENTIRETY and wholesome code that supports this file*/
+@import url("https://rawgit.com/KotoriXIII/OfficialWidowmakerTheme/master/Logic.css");
+
+/* IMPORTANT: Change '.old' to '.new' for the new titlebar and vice versa, USE kAMINARIKULLUA's titlebar theme for neat fx */
+@import url("https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.old.css");
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
+---------------------------------------------------------------------------------------------------------------------------------------------
+-> If some elements are broken, there is either: A new theme version available, or Discord has just updated and you need to redownload Zere's copy.
+-> If you notice elements are broken for a prolonged amount of time, lmk on discord Kotori#4236. 
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* ========== CUSTOMIZABLE VARIABLES ========== */
+:root {
+    /* COLORS */
+	--main-color: #C0C0C0;
+	--hover-color: #A9A9A9;
+	--channel-color: #FEFFFF;
+	
+    /* IMAGES */
+	--background-image: url();	
+	--dm-image: url();	
+	--profile-image: url();
+	--nsfw-image: url();
+	
+    /* MISC */
+	--background-blur: 0px;
+	
+	/* deprecated value */
+	--background-brightness: 10%; 
+
+	--emoji-size: 13px;
+}
+
+  /* optionally adjust background brightness, have to change variable stuff from background), for now adjust using the bottom RGBA. Change the last value from 0 - 1. 1 being black */
+.layers-20RVFW {
+  background: rgba(0,0,0, 0.8) !important;
+}
+
+/* cool tiny transparency when in a channel call */
+.theme-dark .private-channel-call {
+    background-color: rgba(0, 0 0, 0.3) !important;
+}
+.video-3lOWa6 {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+=
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
