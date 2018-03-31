@@ -1,7 +1,7 @@
 //META{"name":"TransparencyTheme","description":"A theme that makes Discord completely see-through and transparent. Minor tweaks to speed Discord's load time and user-friendliness, with some anime spice :)","author":"Kotori#4236","version":"1.0"}*//{}
 
 /* IMPORT CSS FROM GITHUB, this is the ENTIRETY and wholesome code that supports this file*/
-@import url("https://rawgit.com/KotoriXIII/OfficialWidowmakerTheme/master/Logic.css");
+@import url("https://rawgit.com/KotoriXIII/DCOldKotoriTheme/master/Logic.css");
 
 /* IMPORTANT: Change '.old' to '.new' for the new titlebar and vice versa, USE kAMINARIKULLUA's titlebar theme for neat fx */
 @import url("https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.old.css");
@@ -16,8 +16,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 /* ========== CUSTOMIZABLE VARIABLES ========== */
 :root {
     /* COLORS */
-	--main-color: #C0C0C0;
-	--hover-color: #A9A9A9;
+	--main-color: #696969;
+	--hover-color: #C0C0C0;
 	--channel-color: #FEFFFF;
 	
     /* IMAGES */
@@ -42,12 +42,10 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 
 /* cool tiny transparency when in a channel call */
 .theme-dark .private-channel-call {
-    background-color: rgba(0, 0 0, 0.3) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 .video-3lOWa6 {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-=
---------------------------------------------------------------------------------------------------------------------------------------------
-*/
+
